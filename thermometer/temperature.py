@@ -69,8 +69,8 @@ def is_temp_ok(t):
 
 
 def _send_email(subject, msg):
-    GMAIL_USER = 'rpi.bohmeraudio@gmail.com'
-    GMAIL_PASS = 'rpi+dsp=fun'
+    GMAIL_USER = ''
+    GMAIL_PASS = ''
     SMTP_SERVER = 'smtp.gmail.com'
     SMTP_PORT = 587
     #logger.info('Starting to send email...')
