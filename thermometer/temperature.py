@@ -16,17 +16,8 @@ import time
 
 import logging
 
-HOME_DIR = '/home/pi/' + '/python/oreilly-flask-apis-video/temperature/'
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('temperature.py')
-
-try:
-    #import RPi.GPIO as GPIO
-    pass
-except Exception as e:
-    log_err = 'WARNING. Failed importing RPi.GPIO'
-    logger.error(log_err)
 
 #------------------------------------#
 #               SETTINGS             #
